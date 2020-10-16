@@ -59,8 +59,8 @@ function scrollToSection(event) {
 
 // build the nav
 function buildNavigationMenu() {
-  const sections = document.getElementsByTagName("section");
   const fragment = document.createDocumentFragment();
+  const sections = document.getElementsByTagName("section");
   document.getElementById('navbar__list').addEventListener("click", scrollToSection);
   for (let section of sections) {
     const anchor = createAnchorElement(section.id, section.getAttribute("data-nav"));
