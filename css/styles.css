@@ -79,23 +79,34 @@ section {
   color: #000;
 }
 
+.navbar__menu .menu__link.selected {
+  background: #000;
+  color: #fff;
+}
 .navbar__menu .menu__link:hover {
   background: #333;
   color: #fff;
   transition: ease 0.3s all;
 }
 
-a.nostyle:link {
+.navbar__menu .menu__link:active {
+  background: #333;
+  color: #fff;
+  transition: ease 0.3s all;
+}
+
+a.no__style:link {
   text-decoration: inherit;
   color: inherit;
   cursor: auto;
 }
 
-a.nostyle:visited {
+a.no__style:visited {
   text-decoration: inherit;
   color: inherit;
   cursor: auto;
 }
+
 
 /* Header Styles */
 .page__header {
