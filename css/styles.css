@@ -43,6 +43,10 @@ p {
   color: #eee;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ---- Layout Rules ---- */
 main {
   margin: 10vh 1em 10vh;
@@ -126,6 +130,16 @@ a.no__style:visited {
 
 .page__footer p{
   color: #fff;
+}
+
+.middle__button {
+  background: #fff;
+  color: #000;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  font-family: 'Oxygen', Sans-Serif;
+  font-size: 3em;
 }
 
 /* ---- Theme Rules ---- */
